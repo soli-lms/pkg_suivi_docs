@@ -4,7 +4,6 @@ chapitre: true
 package: pkg_suivi
 order: 502
 ---
-## ** Idéation pour le suivi des compétences et des projets dans Soli-LMS
 
 ### **Idéation pour le suivi des compétences et des projets dans **Soli-LMS**
 

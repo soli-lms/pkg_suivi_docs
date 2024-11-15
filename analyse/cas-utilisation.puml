@@ -1,0 +1,35 @@
+@startuml
+left to right direction
+
+actor Formateur
+actor Apprenant
+
+rectangle "Interface Formateur - Suivi de Projet et Compétences" {
+  usecase "Accéder au tableau des projets" as UC1
+  usecase "Consulter l'état des projets" as UC2
+  usecase "Suivre l'avancement des projets" as UC3
+  usecase "Consulter le tableau de l'état de chaque apprenant" as UC4
+  usecase "Suivre les progrès des apprenants" as UC5
+  usecase "Gérer les notes et compétences" as UC6
+  usecase "Donner des feedbacks réguliers" as UC7
+  usecase "Recevoir des rappels et notifications" as UC8
+  usecase "Consulter le tableau de bord personnel" as UC9
+  usecase "Travailler sur les projets" as UC10
+}
+
+Formateur --> UC1 
+Formateur --> UC2 
+
+Formateur --> UC3
+Formateur --> UC5
+Formateur --> UC6
+Formateur --> UC7
+Formateur --> UC8 
+
+Apprenant --> UC9 
+Apprenant --> UC10 
+Apprenant --> UC7 
+
+UC4 .u.> UC3 : <<extend>>
+
+@enduml

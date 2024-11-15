@@ -5,4 +5,7 @@ package: pkg_suivi
 order: 603
 ---
 <!-- new slide -->
-### Idéation
+### Idéation - cas utilisateur
+
+
+![Soli-lms](image/cas-utilisation.svg "ux-design")
