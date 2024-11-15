@@ -1,8 +1,8 @@
 ---
 chapitre: false
 slide: true
-package: pkg_validations
-order: 501
+package: pkg_suivi
+order: 602
 ---
 <!-- new slide -->
 
@@ -14,15 +14,16 @@ order: 501
 
 ### Responsable du Formation
 
-
+![Soli-lms](image/empathie-responsable-de-formation.png "ux-design")
 
 <!-- new detail-->
 
 ### Formateur
 
-
-
+![Soli-lms](image/empathie-formateur.png "ux-design")
 
 <!-- new detail-->
 
 ### Apprenent
+
+![Soli-lms](image/empathie-apprenant.png "ux-design")
